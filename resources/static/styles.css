@@ -1,0 +1,18 @@
+.card {
+    margin-bottom: 20px;
+}
+.card-title {
+    font-size: 24px;
+}
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.btn-primary {
+    background-color: #E27D60;
+    border-color: #E27D60;
+}
+.btn-primary:hover {
+    background-color: #C74E3F;
+    border-color: #C74E3F;
+}
