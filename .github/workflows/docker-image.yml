@@ -22,7 +22,7 @@ jobs:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
       
-      - name: Build and push orders-api Docker image
+      - name: Build and push app Docker image
         uses: docker/build-push-action@v2
         with:
           context: .
